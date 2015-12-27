@@ -1,3 +1,5 @@
+// This is the first JS file! See the Roadmap for more! :)
+
 document.addEventListener("DOMContentLoaded", function() {
 
   function presentColor() {
@@ -37,5 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   presentColor();
+
   var firstInterval = window.setInterval(presentColor, 1000);
 });
