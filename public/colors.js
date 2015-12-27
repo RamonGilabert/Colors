@@ -3,14 +3,18 @@ document.addEventListener("DOMContentLoaded", function() {
   function presentColor() {
     // Change background color of the body and the text of the label.
     var countLabel = document.getElementById("time-label");
-    countLabel.innerHTML = "Weather is good."
+    countLabel.textContent = transformDate();
   }
 
   function transformDate() {
-    // 1. Get the date.
-    // 2. Get the string from the date without the dots and stuff, so put hour, etc. in one string.
-    // 3. Create the string and return it.
+    var today = new Date();
+    var hour = parseInt(today.getHours());
+    var minutes = parseInt(today.getMinutes());
+    var seconds = parseInt(today.getSeconds());
+    var string = hour + ":" + minutes + ":" + seconds
+
+    return string
   }
 
-  presentColor();
+  var firstInterval = window.setInterval(presentColor, 1000);
 });
