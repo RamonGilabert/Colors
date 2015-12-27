@@ -19,8 +19,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var seconds = transformNumber(today.getSeconds());
     var string = hour + ":" + minutes + ":" + seconds;
 
-    if (seconds === "35") {
-      countLabel.classList.add("bounce");
+    if (seconds === "00") {
+      countLabel.style.animationName = 'bounce';
+      countLabel.style.animationDuration = '0.35s';
+      countLabel.style.animationTimingFunction = 'ease-in';
+
+      window.setTimeout(function() {
+          countLabel.style.animationName = '';
+      }, 350);
     }
 
     return string;
