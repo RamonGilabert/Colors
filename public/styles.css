@@ -1,6 +1,7 @@
 /* Colors style */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 300);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400italic);
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -30,6 +31,10 @@ h1, h3 {
   transform: translate(0, -50%);
 }
 
+a {
+  color: white;
+}
+
 #time-label {
   font-size: 125px;
   font-size: 15vw;
@@ -43,8 +48,10 @@ h1, h3 {
 }
 
 #social-label {
+  font-family: Merriweather, Georgia;
+  font-style: italic;
   font-size: 30px;
-  font-size: 1.5vw;
+  font-size: 1.75vw;
   margin: 0;
   padding: 0;
   text-align: center;
