@@ -1,0 +1,73 @@
+/* Colors style */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans: 400, 300);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400italic);
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  cursor: default;
+}
+
+body {
+  background-color: #BCF378;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3 {
+  text-align: center;
+  color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 40%;
+  transform: translate(0, -50%);
+}
+
+a {
+  color: white;
+}
+
+#time-label {
+  font-size: 125px;
+  font-size: 15vw;
+  font-weight: 400;
+}
+
+#color-label {
+  font-size: 50px;
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+
+#social-label {
+  font-family: Merriweather, Georgia;
+  font-style: italic;
+  font-size: 30px;
+  font-size: 1.75vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  bottom: 1.5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* Animations */
+
+@keyframes bounce {
+  0% { -webkit-transform: scale(1, 1) translate(0, -50%);; transform: scale(1, 1) translate(0, -50%);; }
+  50% { -webkit-transform: scale(1.2, 1.2) translate(0, -50%);; transform: scale(1.2, 1.2) translate(0, -50%);; }
+  100% { -webkit-transform: scale(1, 1) translate(0, -50%);; transform: scale(1, 1) translate(0, -50%);; }
+}
