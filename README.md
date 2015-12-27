@@ -8,7 +8,7 @@ The roadmap for this repository is to look for ideas to show most of the colors 
 
 # Roadmap
 
-- [ ] Add some animations from the animate.css file.
+- [x] Add some animations.
 - [x] Add a better alignment.
 - [x] Add a link to my Twitter and Github account.
 
