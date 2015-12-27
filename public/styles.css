@@ -11,7 +11,6 @@ html {
 }
 
 body {
-  background-color: #BCF378;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -53,7 +52,6 @@ a {
   margin: 0;
   padding: 0;
   text-align: center;
-  color: white;
   font-weight: 300;
   position: absolute;
   bottom: 1.5%;
