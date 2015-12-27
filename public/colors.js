@@ -12,13 +12,18 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function transformDate() {
+    var countLabel = document.getElementById("time-label");
     var today = new Date();
     var hour = transformNumber(today.getHours());
     var minutes = transformNumber(today.getMinutes());
     var seconds = transformNumber(today.getSeconds());
-    var string = hour + ":" + minutes + ":" + seconds
+    var string = hour + ":" + minutes + ":" + seconds;
 
-    return string
+    if (seconds === "35") {
+      countLabel.classList.add("bounce");
+    }
+
+    return string;
   }
 
   function transformNumber(number){
