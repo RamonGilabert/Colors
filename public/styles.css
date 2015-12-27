@@ -1,5 +1,19 @@
 /* Colors style */
 
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+. {
+  font-family: 'Lobster', cursive;
+}
+
 body {
-  background-color: #000000;
+  background-color: #FFFFFF;
+}
+
+#time-label {
+  color: red;
+}
+
+#color-label {
+  color: blue;
 }
