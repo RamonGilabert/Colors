@@ -11,11 +11,19 @@ html {
 body {
   background-color: #BCF378;
   position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h3 {
   text-align: center;
   color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #time-label {
@@ -23,7 +31,8 @@ h1, h3 {
   font-size: 15vw;
   padding: 0;
   margin: 0;
-  margin-top: 42.5%;
+  position: relative;
+  top: 45%;
   transform: translate(0, -50%);
   font-weight: 400;
 }
@@ -33,4 +42,5 @@ h1, h3 {
   font-size: 2.5vw;
   margin-top: 10px;
   font-weight: 300;
+  background-color: blue;
 }
