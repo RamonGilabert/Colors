@@ -10,7 +10,7 @@ The roadmap for this repository is to look for ideas to show most of the colors 
 
 - [ ] Add some animation for the counter and also for the appearing of the things in the screen.
 - [ ] Add some animation for the fading of the colors.
-- [ ] Add a better alignment.
+- [x] Add a better alignment.
 - [ ] Add a link to my Twitter and Github account.
 
 # Author
