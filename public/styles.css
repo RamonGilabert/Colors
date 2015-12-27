@@ -1,9 +1,9 @@
 /* Colors style */
 
-@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 html {
-  font-family: 'Lobster', cursive;
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
   width: 100%;
 }
@@ -20,15 +20,17 @@ h1, h3 {
 
 #time-label {
   font-size: 125px;
-  font-size: 17vw;
+  font-size: 15vw;
   padding: 0;
   margin: 0;
   margin-top: 42.5%;
   transform: translate(0, -50%);
+  font-weight: 400;
 }
 
 #color-label {
   font-size: 75px;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   margin-top: 10px;
+  font-weight: 300;
 }
