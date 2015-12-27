@@ -3,8 +3,12 @@ document.addEventListener("DOMContentLoaded", function() {
   function presentColor() {
     var countLabel = document.getElementById("time-label");
     var colorLabel = document.getElementById("color-label");
-    countLabel.textContent = transformDate();
+    var string = transformDate();
+    var finalColor = "#" + string.replace(/:/g, '');
 
+    countLabel.textContent = string;
+    colorLabel.textContent = finalColor;
+    document.body.style.backgroundColor = finalColor;
   }
 
   function transformDate() {
