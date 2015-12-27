@@ -2,18 +2,27 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-. {
+html {
   font-family: 'Lobster', cursive;
+  height: 100%;
+  width: 100%;
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #C8C8C8;
+}
+
+h1, h3 {
+  text-align: center;
+  color: white;
 }
 
 #time-label {
-  color: red;
+  font-size: 125px;
+  font-size: 15vw;
 }
 
 #color-label {
-  color: blue;
+  font-size: 75px;
+  font-size: 3.5vw;
 }
