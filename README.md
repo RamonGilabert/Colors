@@ -1,6 +1,6 @@
 # Colors
 
-// TODO: Here put the screenshot.
+![Colors](https://github.com/RamonGilabert/Colors/blob/master/images/Screenshot.png)
 
 Colors is a website that, based on the time, it'll display a color in hex. So, from #000000 at night, to #235959 it's going to display different colors.
 
