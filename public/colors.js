@@ -12,13 +12,24 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function transformDate() {
+    var countLabel = document.getElementById("time-label");
     var today = new Date();
     var hour = transformNumber(today.getHours());
     var minutes = transformNumber(today.getMinutes());
     var seconds = transformNumber(today.getSeconds());
-    var string = hour + ":" + minutes + ":" + seconds
+    var string = hour + ":" + minutes + ":" + seconds;
 
-    return string
+    if (seconds === "00") {
+      countLabel.style.animationName = 'bounce';
+      countLabel.style.animationDuration = '0.35s';
+      countLabel.style.animationTimingFunction = 'ease-in';
+
+      window.setTimeout(function() {
+          countLabel.style.animationName = '';
+      }, 350);
+    }
+
+    return string;
   }
 
   function transformNumber(number){

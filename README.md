@@ -6,13 +6,14 @@ Colors is a website that, based on the time, it'll display a color in hex. So, f
 
 The roadmap for this repository is to look for ideas to show most of the colors in the hex range.
 
-# Roadmap
+## Roadmap
 
-- [ ] Add some animation for the counter and also for the appearing of the things in the screen.
-- [ ] Add some animation for the fading of the colors.
-- [ ] Add a better alignment.
-- [ ] Add a link to my Twitter and Github account.
+- [x] Add some animations.
+- [x] Add a better alignment.
+- [x] Add a link to my Twitter and Github account.
 
-# Author
+Tell me your suggestion making an issue! :)
+
+## Author
 
 [Ramon Gilabert](https://twitter.com/RamonGilabert), to practice JS, with 💖
