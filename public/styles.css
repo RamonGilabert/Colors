@@ -1,0 +1,34 @@
+/* Colors style */
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+html {
+  font-family: 'Lobster', cursive;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #BCF378;
+  position: relative;
+}
+
+h1, h3 {
+  text-align: center;
+  color: white;
+}
+
+#time-label {
+  font-size: 125px;
+  font-size: 17vw;
+  padding: 0;
+  margin: 0;
+  margin-top: 42.5%;
+  transform: translate(0, -50%);
+}
+
+#color-label {
+  font-size: 75px;
+  font-size: 3.5vw;
+  margin-top: 10px;
+}
