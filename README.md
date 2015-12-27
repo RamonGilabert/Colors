@@ -6,4 +6,4 @@ The roadmap for this repository is to look for ideas to show most of the colors 
 
 # Author
 
-![Ramon Gilabert](https://twitter.com/RamonGilabert), to practice JS, with 💖
+[Ramon Gilabert](https://twitter.com/RamonGilabert), to practice JS, with 💖
